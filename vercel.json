@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/actors.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/actors", "dest": "api/actors.py" }
+  ]
+}
